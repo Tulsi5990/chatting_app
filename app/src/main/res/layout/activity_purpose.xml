@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What are you here for?"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp" />
+
+        <!-- Personal Messaging Box -->
+        <LinearLayout
+            android:id="@+id/personal_messaging_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Messaging"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/username_personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="Username"
+                android:padding="12dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/rounded_bg"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/submit_personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Submit"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_bg"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Email Messaging Box -->
+        <LinearLayout
+            android:id="@+id/email_messaging_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Messaging"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/username_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="Username"
+                android:padding="12dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/rounded_bg"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/submit_personal_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Submit"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_bg"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/black"
+                android:padding="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode. -->
+    <style name="Base.Theme.ChattingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <style name="Theme.ChattingApp" parent="Base.Theme.ChattingApp" />
+</resources>
